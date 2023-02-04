@@ -9,7 +9,6 @@
 ## Deployment with Docker:
 ### Simply run the following commands:
 ```bash
-cd docker
 docker compose up -d
 ```
 ### This will build the project and run it in a Docker container with a MongoDB instance.

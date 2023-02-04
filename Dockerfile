@@ -8,4 +8,5 @@ RUN gradle shadowJar
 FROM amazoncorretto:17
 WORKDIR /workdir/server/
 COPY --from=BUILD /workdir/server/build/libs/PepperoniBot-1.0-all.jar .
+COPY --from=BUILD /workdir/server/.env .
 ENTRYPOINT ["java", "-jar", "PepperoniBot-1.0-all.jar"]

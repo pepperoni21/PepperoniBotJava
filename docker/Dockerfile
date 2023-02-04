@@ -1,8 +1,8 @@
 # Build stage
 FROM gradle:latest AS BUILD
 WORKDIR /workdir/server/
-COPY .. .
-RUN gradle build
+COPY . .
+RUN gradle shadowJar
 
 # Package stage
 FROM amazoncorretto:17

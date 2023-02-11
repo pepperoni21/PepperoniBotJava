@@ -7,7 +7,7 @@
 - Morphia (ODM for MongoDB)
 - Dotenv (for loading environment variables)
 ## Deployment with Docker:
-### Simply run the following commands:
+### Simply run the following command:
 ```bash
 docker compose up -d
 ```

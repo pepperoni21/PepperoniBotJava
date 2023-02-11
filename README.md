@@ -4,7 +4,7 @@
 ## Dependencies:
 - JDA (discord api)
 - MongoDB Driver
-- Morphia (ORM for MongoDB)
+- Morphia (ODM for MongoDB)
 - Dotenv (for loading environment variables)
 ## Deployment with Docker:
 ### Simply run the following commands:
